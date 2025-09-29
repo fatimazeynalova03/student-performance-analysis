@@ -23,7 +23,7 @@ The dataset contains details about attendance, study hours, sleep, tutoring sess
 **Functions / Clauses Used:** `SELECT`, `AVG()`, `WHERE`, `GROUP BY`, `ORDER BY`  
 ### 2.  `avg_exam_score_by_hours_studied_range.sql`
 **Purpose:** Group students into study hour ranges and calculate the average exam score for each range.
-**Functions / Clauses Used:** SELECT, CASE WHEN, AVG(), ROUND(), GROUP BY, ORDER BY
+**Functions / Clauses Used:** `SELECT`, `CASE WHEN`, `AVG()`, `ROUND()`, `GROUP BY`, `ORDER BY`
 ###3.   `student_exam_ranking.sql`
-**Purpose:** Rank students based on their exam scores using DENSE_RANK() and return the top 30 students.
-**Functions / Clauses Used:** SELECT, DENSE_RANK() OVER(...), ORDER BY, LIMIT
+**Purpose:** Rank students based on their exam scores using `DENSE_RANK()` and return the top 30 students.
+**Functions / Clauses Used:** SELECT, `DENSE_RANK()`, `OVER(...)`, `ORDER BY`, `LIMIT`
