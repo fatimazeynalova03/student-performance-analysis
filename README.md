@@ -26,4 +26,4 @@ The dataset contains details about attendance, study hours, sleep, tutoring sess
 **Functions / Clauses Used:** `SELECT`, `CASE WHEN`, `AVG()`, `ROUND()`, `GROUP BY`, `ORDER BY`
 ### 3.  `student_exam_ranking.sql`
 **Purpose:** Rank students based on their exam scores using `DENSE_RANK()` and return the top 30 students.
-**Functions / Clauses Used:** SELECT, `DENSE_RANK()`, `OVER(...)`, `ORDER BY`, `LIMIT`
+**Functions / Clauses Used:** `SELECT`, `DENSE_RANK()`, `OVER(...)`, `ORDER BY`, `LIMIT`
