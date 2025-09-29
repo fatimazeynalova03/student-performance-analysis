@@ -21,10 +21,9 @@ The dataset contains details about attendance, study hours, sleep, tutoring sess
 ### 1. `avg_exam_score_by_study_and_extracurricular.sql`
 **Purpose:** Calculate the average exam score for students who study more than 10 hours per week and participate in extracurricular activities.  
 **Functions / Clauses Used:** `SELECT`, `AVG()`, `WHERE`, `GROUP BY`, `ORDER BY`  
-2. 2. avg_exam_score_by_hours_studied_range.sql
-Purpose: Group students into study hour ranges and calculate the average exam score for each range.
-Functions / Clauses Used: SELECT, CASE WHEN, AVG(), ROUND(), GROUP BY, ORDER BY
-3. student_exam_ranking.sql
-
-Purpose: Rank students based on their exam scores using DENSE_RANK() and return the top 30 students.
-Functions / Clauses Used: SELECT, DENSE_RANK() OVER(...), ORDER BY, LIMIT
+### 2.  `avg_exam_score_by_hours_studied_range.sql`
+**Purpose:** Group students into study hour ranges and calculate the average exam score for each range.
+**Functions / Clauses Used:** SELECT, CASE WHEN, AVG(), ROUND(), GROUP BY, ORDER BY
+###3.   `student_exam_ranking.sql`
+**Purpose:** Rank students based on their exam scores using DENSE_RANK() and return the top 30 students.
+**Functions / Clauses Used:** SELECT, DENSE_RANK() OVER(...), ORDER BY, LIMIT
