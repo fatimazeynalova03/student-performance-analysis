@@ -1,5 +1,5 @@
 # Student Performance Analysis
-![Alt Text](82cdf12e-5180-49dd-8685-03c84b93d49e)
+![Alt Text](exam_result.jpeg)
 
 ## Project Description
 This project explores how study habits and extracurricular activities influence student exam performance. Using SQL queries on the `student_performance` dataset, we uncover insights that can help students, teachers, and policymakers improve learning outcomes.
