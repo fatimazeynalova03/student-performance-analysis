@@ -9,7 +9,7 @@ The dataset contains details about attendance, study hours, sleep, tutoring sess
 
 ## Dataset: `student_performance`
 
-| Column | Definition | Data Type |
+| Column | Definition | Data Type |  
 |--------|------------|-----------|
 | attendance | Percentage of classes attended | float |
 | extracurricular_activities | Participation in extracurricular activities | varchar (Yes, No) |
