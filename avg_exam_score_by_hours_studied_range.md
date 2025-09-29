@@ -1,4 +1,5 @@
-###### 2. avg_exam_score_by_hours_studied_range
+## SQL Queries Included
+### 2. avg_exam_score_by_hours_studied_range
 **Functions / Clauses Used:**  
 - `SELECT` → choose columns to display  
 - `CASE WHEN` → categorize students into study hour ranges  
