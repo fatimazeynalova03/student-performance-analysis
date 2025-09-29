@@ -4,11 +4,11 @@
 
 ### 1. avg_exam_score_by_study_and_extracurricular
 **Functions / Clauses Used:**  
-- `SELECT`
-- `AVG()`
-- `WHERE`
-- `GROUP BY`
-- `ORDER BY`  
+- `SELECT` → Chooses which columns to display.
+- `AVG()` → Calculates the average value of a numeric column.
+- `WHERE` → Filters rows that meet certain conditions.
+- `GROUP BY` → Groups rows so aggregate functions can be applied to each group.
+- `ORDER BY` → Sorts the results by one or more columns.
 
 ```sql
 -- Calculate average exam score for students who study more than 10 hours and do extracurricular activities
