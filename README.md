@@ -18,3 +18,14 @@ The dataset contains details about attendance, study hours, sleep, tutoring sess
 | teacher_quality | Quality of the teachers | varchar (Low, Medium, High) |
 | exam_score | Final exam score | float |
 | hours_studied | Number of study hours per week | float |
+### 1. `avg_exam_score_by_study_and_extracurricular.sql`
+**Purpose:** Calculate the average exam score for students who study more than 10 hours per week and participate in extracurricular activities.  
+**Functions / Clauses Used:** `SELECT`, `AVG()`, `WHERE`, `GROUP BY`, `ORDER BY`  
+
+```sql
+SELECT hours_studied, AVG(exam_score) AS avg_exam_score
+FROM student_performance
+WHERE hours_studied > 10 
+  AND extracurricular_activities = 'Yes'
+GROUP BY hours_studied
+ORDER BY hours_studied DESC;
