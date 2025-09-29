@@ -1,6 +1,11 @@
-### 2. avg_exam_score_by_hours_studied_range
+###### 2. avg_exam_score_by_hours_studied_range
 **Functions / Clauses Used:**  
-- `SELECT`, `CASE WHEN`, `AVG()`, `ROUND()`, `GROUP BY`, `ORDER BY`  
+- `SELECT` → choose columns to display  
+- `CASE WHEN` → categorize students into study hour ranges  
+- `AVG()` → calculate average exam score  
+- `ROUND()` → round the average to 2 decimal places  
+- `GROUP BY` → group results by study hour ranges  
+- `ORDER BY` → sort results by average exam score descending  
 
 ```sql
 -- Categorize students by hours studied and calculate average exam score for each range
